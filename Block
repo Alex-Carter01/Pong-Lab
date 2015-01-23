@@ -24,6 +24,20 @@ public class Block
       height=0;
       color=Color.black;
 	}
+   
+   public void Block(int x, int y, int hei, int wid){
+   xPos=x;
+   yPos=y;
+   height=hei;
+   width=wid;
+   }
+   public void Block(int x, int y, int hei, int wid, Color col){
+   xPos=x;
+   yPos=y;
+   height=hei;
+   width=wid;
+   color=col;
+   }
 
 	// add other Block constructors - x , y , width, height, color
    // you can find what constructors you need by looking at BlockTestOne and BlockTestTwo
@@ -38,6 +52,7 @@ public class Block
       color=col;
 
 	}
+   
 
 	public void setPos( int x, int y )
 	{
