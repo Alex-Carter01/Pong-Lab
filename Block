@@ -18,25 +18,25 @@ public class Block
 
 	public Block()
 	{
-      xPos=0;
-      yPos=0;
-      width=0;
-      height=0;
+      xPos=100;
+      yPos=150;
+      width=10;
+      height=10;
       color=Color.black;
 	}
    
-   public void Block(int x, int y, int hei, int wid){
-   xPos=x;
-   yPos=y;
-   height=hei;
-   width=wid;
+   public Block(int x, int y, int hei, int wid){
+      xPos=x;
+      yPos=y;
+      height=hei;
+      width=wid;
    }
-   public void Block(int x, int y, int hei, int wid, Color col){
-   xPos=x;
-   yPos=y;
-   height=hei;
-   width=wid;
-   color=col;
+   public  Block(int x, int y, int hei, int wid, Color col){
+      xPos=x;
+      yPos=y;
+      height=hei;
+      width=wid;
+      color=col;
    }
 
 	// add other Block constructors - x , y , width, height, color
